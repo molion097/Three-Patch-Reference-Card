@@ -1,0 +1,18 @@
+seed: 42
+dataset:
+  manifest_path: newcode/manifests/synthetic_pairs.csv
+  split_path: newcode/splits/synthetic/object_holdout/seed_42.csv
+model:
+  name: hybrid_residual
+  config_path: newcode/configs/models/hybrid_residual.yaml
+training:
+  optimizer: adam
+  learning_rate: 0.001
+  batch_size: 64
+  max_epochs: 300
+  early_stopping:
+    monitor: val_delta_e76
+    patience: 30
+    restore_best_weights: true
+evaluation:
+  bootstrap_iterations: 10000

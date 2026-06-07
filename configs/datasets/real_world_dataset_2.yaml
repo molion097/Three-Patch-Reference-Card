@@ -1,0 +1,3 @@
+name: real_world_dataset_2
+pickle_path: data/mulmed_final_project/machine_learning/dataset/colordata2/real_world_dataset_2.pkl
+manifest_path: newcode/manifests/real_world_dataset_2.csv

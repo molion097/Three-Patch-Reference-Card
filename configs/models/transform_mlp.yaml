@@ -1,0 +1,5 @@
+name: transform_mlp
+input_dim: 36
+hidden_units: [64, 32]
+output_dim: 9
+learned_inputs: reference_patches_only

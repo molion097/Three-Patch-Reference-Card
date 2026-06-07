@@ -1,0 +1,17 @@
+{
+  "n": 648.0,
+  "mean": 5.550039945312222,
+  "median": 4.784113638805891,
+  "std": 3.5160046219117014,
+  "p95": 12.384945888924069,
+  "fail_gt_2": 0.9182098765432098,
+  "fail_gt_5": 0.46296296296296297,
+  "fail_gt_10": 0.10339506172839506,
+  "mean_ci_low": 5.294544994106173,
+  "mean_ci_high": 5.821747021594858,
+  "method": "hybrid_pretrained",
+  "protocol": "light_holdout",
+  "residual_scale": 0.5,
+  "n_iter_pretrain": 51,
+  "n_iter_finetune": 61
+}

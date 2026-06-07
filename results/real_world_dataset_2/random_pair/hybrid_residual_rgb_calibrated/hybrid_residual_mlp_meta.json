@@ -1,0 +1,18 @@
+{
+  "model_file": "hybrid_residual_mlp.tflite",
+  "input_shape": [
+    1,
+    36
+  ],
+  "output_shape": [
+    1,
+    3
+  ],
+  "input_description": "36D float32 vector: concat of P_src (9D), P_tgt (9D), P_tgt/P_src (9D), P_tgt-P_src (9D). StandardScaler baked in \u2014 pass raw values.",
+  "output_description": "3D residual correction (RGB, same scale as input patches)",
+  "residual_alpha": 0.5,
+  "inference_formula": "pred = clip(m3cb_base + alpha * residual, 0, 1)",
+  "protocol": "random_pair",
+  "mean_delta_e76": 4.19,
+  "sklearn_n_iter": 83
+}

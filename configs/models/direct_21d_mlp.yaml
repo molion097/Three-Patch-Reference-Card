@@ -1,0 +1,5 @@
+name: direct_21d_mlp
+role: ablation_only
+input_dim: 21
+hidden_units: [64, 32]
+output_dim: 3

@@ -1,0 +1,20 @@
+{
+  "fail_gt_10": 0.9907407407407407,
+  "fail_gt_2": 1.0,
+  "fail_gt_5": 0.9984567901234568,
+  "learned_input_policy": "reference_patches_only",
+  "mean": 37.15357781904905,
+  "mean_ci_high": 38.18834348867997,
+  "mean_ci_low": 36.16609631133143,
+  "median": 36.316156287107,
+  "method": "direct_18d",
+  "n": 648.0,
+  "n_iter": 60,
+  "p95": 60.821741070252806,
+  "residual_scale": null,
+  "split": "test",
+  "std": 13.891593588774557,
+  "test_n": 648,
+  "train_n": 3888,
+  "val_n": 864
+}

@@ -1,0 +1,20 @@
+{
+  "fail_gt_10": 1.0,
+  "fail_gt_2": 1.0,
+  "fail_gt_5": 1.0,
+  "learned_input_policy": "reference_patches_only",
+  "mean": 56.39821433138418,
+  "mean_ci_high": 60.51524810072607,
+  "mean_ci_low": 52.20958103166345,
+  "median": 53.73365077159013,
+  "method": "direct_18d",
+  "n": 99.0,
+  "n_iter": 78,
+  "p95": 96.05335030455942,
+  "residual_scale": null,
+  "split": "test",
+  "std": 21.153113065861287,
+  "test_n": 99,
+  "train_n": 2718,
+  "val_n": 128
+}

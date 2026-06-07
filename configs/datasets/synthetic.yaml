@@ -1,0 +1,4 @@
+name: synthetic
+image_dir: data/object_light_combination_hue_saturation
+render_manifest: newcode/manifests/synthetic_renders.csv
+pair_manifest: newcode/manifests/synthetic_pairs.csv

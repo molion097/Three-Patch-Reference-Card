@@ -1,0 +1,7 @@
+name: hybrid_residual
+input_dim: 36
+hidden_units: [32, 16]
+output_dim: 9
+base_transform: m3cb
+residual_scale: 0.1
+learned_inputs: reference_patches_only
